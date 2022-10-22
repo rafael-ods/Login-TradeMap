@@ -1,0 +1,203 @@
+.formulario__conteudo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.formulario__conteudo {
+    padding-top: 15px;
+}
+
+.formulario__label {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cor-branca);
+    margin-bottom: 4px;
+}
+
+.formulario__input {
+    color: var(--cor-branca);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+
+    background-color: transparent;
+    border: 2px solid rgb(53, 53, 70);
+    border-radius: 8px;
+
+    padding: 16px 50px 16px 16px;
+    outline: none;
+    z-index: 1;
+}
+
+.input--eyes {
+    background-image: url(../../img/olho.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+}
+
+.formulario__input:focus {
+    color: var(--cor-branca);
+    border: 2px solid var(--cor-verde) !important;
+
+}
+
+.formulario__conteudo-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-style {
+    cursor: pointer;
+    appearance: none;
+    color: var(--cor-verde);
+    width: 18px;
+    height: 18px;
+    border: 0.15em solid var(--cor-verde);
+    border-radius: 0.15em;
+}
+
+.checkbox-style:checked {
+    background-image: url(../../img/checked.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.formulario__label--checkbox {
+    color: var(--cor-branca);
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.btn__password {
+    background: transparent;
+    border: none;
+    color: var(--cor-verde);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn__password:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.formulario__conteudo-Btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn--entrar {
+    background-color: var(--cor-verde);
+    color: var(--cor-de-fundo-logo);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* .btn--entrar:disabled {
+    opacity: 0.24;
+} */
+
+
+.btn--entrar:hover {
+    background-color: rgb(1, 214, 145);
+}
+
+.btn--criar {
+    color: var(--cor-verde);
+    border: 2px solid var(--cor-verde);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.btn--criar:hover {
+    text-decoration: underline;
+}
+
+.descricao-alternativo {
+    color: var(--cor-branca);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.btn-google {
+    border: 0px;
+    background-image: url(../../img/btn-google.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--cor-branca);
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 13rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.btn-google:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+
+.btn-code {
+    background-color: transparent;
+    border: 0px;
+    color: var(--cor-verde);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 3.5rem auto 0;
+}
+
+.btn-code:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:768px) {
+    .btn-google {
+        width: 51px;
+        height: 40px;
+        margin-left: 15px;
+    }
+
+    .btn-code {
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .formulario__label--checkbox,
+    .btn__password {
+        font-size: 14px;
+    }
+}

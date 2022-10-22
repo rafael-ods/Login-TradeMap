@@ -1,0 +1,31 @@
+.container-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-de-fundo-logo);
+    width: 50%;
+}
+
+.logo {
+    background-image: url(../../img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+    height: 94%;
+}
+
+.logo-valemobi {
+    background-image: url(../../img/valemobi-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 16px;
+}
+
+
+@media screen and (max-width:768px) {
+    .container-logo {
+        display: none;
+    }
+}

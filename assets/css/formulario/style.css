@@ -1,0 +1,50 @@
+.fomulario {
+    width: 432px;
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.logo-mobile {
+    background-image: url(../../img/logo-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto 25px ;
+    width: 253px;
+    height: 53px;
+    display: none;
+}
+
+.formulario__titulo {
+    color: var(--cor-branca);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .fomulario {
+        width: 368px;
+    }
+    .logo-mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .fomulario {
+        width: 318px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    .fomulario {
+        width: 272px;
+    }
+    .formulario__titulo {
+        font-size: 23px;
+    }
+}

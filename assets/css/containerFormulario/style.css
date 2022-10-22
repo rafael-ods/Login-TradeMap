@@ -1,0 +1,17 @@
+.container-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-de-fundo-formulario);
+    width: 50%;
+    height: 100vh;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .container-formulario {
+        width: 100%;
+        background-color: var(--cor-de-fundo-logo);
+    }
+}

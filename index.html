@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>TradeMap</title>
+  <link rel="shortcut icon" href="assets/img/Favicon-TradeMap.png" type="image/x-icon">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css">
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src='index.js'></script>
+</head>
+
+<body>
+  <div class="container-principal">
+    <div class="container-logo">
+      <span class="logo"></span>
+      <span class="logo-valemobi"></span>
+    </div>
+    <div class="container-formulario">
+      <form class="fomulario">
+        <span class="logo-mobile"></span>
+        <h1 class="formulario__titulo">Entre ou crie sua conta</h1>
+        <fieldset class="formulario__conteudo">
+          <label class="formulario__label" for="username">Email, CPF ou celular</label>
+          <input class="formulario__input" type="email" name="username" id="username" required>
+        </fieldset>
+        <fieldset class="formulario__conteudo">
+          <label class="formulario__label" for="password">Senha</label>
+          <input class="formulario__input" type="password" name="password" id="password" required>
+          <span class="input--eyes"></span>
+        </fieldset>
+        <fieldset class="formulario__conteudo-checkbox">
+          <div class="check">
+            <input class="checkbox-style" type="checkbox" id="remember"> 
+            <label class="formulario__label--checkbox" for="remember">Lembrar conta<label>
+          </div>
+          <button class="btn__password">Esqueci a senha</button>
+        </fieldset>
+        <fieldset class="formulario__conteudo-Btn ">
+          <button id="login" disabled class="btn btn--entrar">Entrar na minha conta</button>
+          <button class="btn btn--criar">Criar uma conta</button>
+        </fieldset>
+        <span class="descricao-alternativo">Ou entre com:</span>
+        <button class="btn-google"></button>
+        <button class="btn-code">Entrar com QR Code</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
