@@ -18,7 +18,6 @@ body {
     font-family: var(--fonte-principal);
     letter-spacing: 0.01071em;
     line-height: 1.43;
-    overflow-y: hidden;
 }
 
 

@@ -1,6 +1,6 @@
 .fomulario {
     width: 432px;
-    height: 980px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
