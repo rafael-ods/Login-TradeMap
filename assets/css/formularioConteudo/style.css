@@ -27,17 +27,17 @@
     padding: 16px 50px 16px 16px;
     outline: none;
     z-index: 1;
+
+   
 }
 
-.input--eyes {
-    background-image: url(../../img/olho.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 24px;
-    height: 24px;
+.fa-eye {
+    font-size: 1.2em;
     position: absolute;
-    top: 50px;
-    right: 15px;
+    top: 53px;
+    right: 20px;
+    color: #CACED4;
+    
 }
 
 .formulario__input:focus {
